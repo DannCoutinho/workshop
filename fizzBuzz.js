@@ -1,3 +1,5 @@
+ const BUZZ = 'Buzz'
+const FIZZ = 'Fizz'
 function processaFizzBuzz(numero) {
   // Implementar aqui
   if (numero % 3 == 0) {
