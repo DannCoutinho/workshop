@@ -3,10 +3,12 @@ const processaFizzBuzz = require('./fizzBuzz')
 describe('FizzBuzz', () => {
   it('Deve receber um número inteiro e retornar o mesmo número', () => {
     //seu código aqui
+    expect (processaFizzBuzz(2)).toBe(2)
   }) 
 
   it('Deve receber um número inteiro múltiplo de 3 e retornar a string Fizz', () => {
     //seu código aqui
+    
   })
 
   it('Deve receber um número inteiro múltiplo de 5 e retornar a string Buzz', () => {
